@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
-/*main - Entry point
- *n: random number
- * write if statements
+#include <stdio.h>
+/* main - Entry point
+ * n: random number
+ * Display n if it is positive, negative or zero
  * Return: O
  */
 int main(void)
@@ -12,10 +13,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n>0)
-	{printf("%s\n", "is positive");}
+	{printf("%i is positive\n", n);}
 	if (n==0)
-	{printf("%s\n", "is zero");}
+	{printf("%i is zero\n", n);}
 	if (n<0)
-	{printf("%s\n", "is negative");}
+	{printf("%i is negative\n", n);}
 	return (0);
 }
