@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - Entry point
+/** 
+ * main - Entry point
  * n: random number
  * Description: Display n if it is positive, negative or zero
  * Return: O
