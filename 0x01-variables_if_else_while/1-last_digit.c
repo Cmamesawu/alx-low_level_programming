@@ -19,5 +19,5 @@ int main(void)
 	{printf("Last digit of n is %i and is 0", n);}
 	if (6>n && n!=0)
 	{printf("Last digit of n is %i and is less than 6 and not 0", n);}
-	return 0;
+	return (0);
 }
