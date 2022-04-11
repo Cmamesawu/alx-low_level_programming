@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  * main - Entry point
- * Description: Display alphabets in lowercase 
+ * 
  * Return : Always 0 (Success)
  */
 int main(void)
