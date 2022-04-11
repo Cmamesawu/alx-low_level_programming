@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * mian - Entry point
+ * main - Entry point
  * Description: Display aphabet excep q & e
  * Return: zero
  */
